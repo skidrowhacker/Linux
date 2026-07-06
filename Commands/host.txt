@@ -1,0 +1,8 @@
+// Notes of Linux Terminal //
+
+// host //
+
+-> host <domain>        Perform a DNS lookup.
+-> -t <type>            Query a specific DNS record type (A, AAAA, MX, NS, TXT, CNAME, etc.).
+-> -4                   Use IPv4 only when communicating with DNS servers.
+-> -6                   Use IPv6 only when communicating with DNS servers.

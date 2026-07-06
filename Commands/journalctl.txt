@@ -1,0 +1,10 @@
+// journalctl // 
+- journalctl   - log output 
+- journalctl -f -> follow mode 
+- journalctl -u process/service 
+- journalctl --since "year-month-day 12:00:00"
+- journalctl --since "yesterday" 
+- journalctl --since "1 hour ago "
+- journalctl _UID="1000"
+- journalctl --vacuum-size=100M
+- journalctl --flush 

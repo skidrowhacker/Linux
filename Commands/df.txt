@@ -1,0 +1,7 @@
+// Notes of Linux Terminal //
+
+// df //
+-> -h  Human-readable sizes
+-> -T  Show filesystem type
+-> -t <type>  Show only specified filesystem type
+-> -x <type>  Exclude specified filesystem type

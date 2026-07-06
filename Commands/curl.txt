@@ -1,0 +1,11 @@
+// Notes of Linux Terminal //
+
+// CURL //
+
+-> Specify the protocol first (http://, https://, ftp://, etc.)
+-> -o <file>  Save/download the response using a filename you choose.
+-> -O         Save/download the response using the original filename from the URL.
+-> -i         Include HTTP response headers with the response body.
+-> -I         Send a HEAD request and display only the HTTP response headers.
+-> -L         Follow redirects.
+-> -v         Verbose mode; display request/response details for debugging.

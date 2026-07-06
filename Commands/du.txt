@@ -1,0 +1,13 @@
+// Notes of Linux Terminal //
+
+// du //
+
+-> du -h --max-depth=1 ~ | sort -hr
+   Display the size of directories in the home directory (one level deep),
+   then sort them from largest to smallest.
+
+Options:
+-> -h              Human-readable sizes (KB, MB, GB)
+-> --max-depth=1   Show only one directory level
+-> sort -hr        Sort by human-readable size in reverse order (largest first)
+-> du -ah . | sort -hr | head -20

@@ -1,0 +1,33 @@
+// Notes of Linux Terminal //
+
+// systemctl //
+
+-> systemctl --type=service --state=running
+   List all running services.
+
+-> systemctl status <service>
+   Check the status of a specific service.
+
+-> systemctl restart <service>
+   Restart a specific service.
+
+-> systemctl start <service>
+   Start a service.
+
+-> systemctl stop <service>
+   Stop a service.
+
+-> systemctl enable <service>
+   Enable a service to start automatically at boot.
+
+-> systemctl disable <service>
+   Disable a service from starting at boot.
+
+-> systemctl reload <service>
+   Reload a service's configuration without restarting it (if supported).
+
+-> systemctl is-active <service>
+   Check whether a service is currently active.
+
+-> systemctl is-enabled <service>
+   Check whether a service is enabled at boot.

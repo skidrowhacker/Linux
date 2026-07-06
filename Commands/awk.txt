@@ -1,0 +1,39 @@
+ // Notes of Linux Terminal //
+
+ // AWK //
+
+-> awk '/Male/ {print}'
+   Search for lines containing "Male".
+
+-> awk '/Male/ && /Games/ {print}'
+   Search for lines containing both "Male" and "Games".
+
+-> awk '/root/ || /kali/ {print}'
+   Search for lines containing either "root" or "kali".
+
+-> awk -F, '{print $3, $4}'
+   Print the 3rd and 4th fields (comma-separated).
+
+-> awk -F, 'NR > 1 {print $9}'
+   Skip the first line and print the 9th field.
+
+-> awk -F, '{printf "%-15s %-15s %s\n", $3, $4, $6}'
+   Print the 3rd, 4th, and 6th fields in aligned columns.
+
+-> awk -F, '{print $NF}'
+   Print the last field.
+
+-> awk '{print NR, $0}'
+   Print line numbers with each line.
+
+-> awk 'END {print NR}'
+   Print the total number of lines.
+
+-> awk -F, '{print NF}'
+   Print the number of fields in each line.
+
+-> awk 'NR==5'
+   Print only the 5th line.
+
+-> awk 'NR>=2 && NR<=5'
+   Print lines 2 through 5.
